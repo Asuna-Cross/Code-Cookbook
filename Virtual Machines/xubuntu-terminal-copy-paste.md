@@ -1,0 +1,1 @@
+Copy Pastes for Xubuntu Terminal
