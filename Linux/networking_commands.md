@@ -15,3 +15,7 @@ Fuzzing with ffuf
 
 ``fcrackzip -v -u -D -p /usr/share/wordlists/rockyou.txt <zipfile>``
 Cracking zipped files using fcrackzip
+
+
+Priveledge escalation stuff
+https://gtfobins.github.io/
