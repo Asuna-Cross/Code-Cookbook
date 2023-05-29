@@ -1,0 +1,8 @@
+---
+# Example of playbook role
+- name: Mass Install
+  hosts: all
+  roles:
+    - gui-tools
+  vars:
+    - install: true
