@@ -13,4 +13,6 @@ Explanation - 127.0.0.1 is loopback, tells computer to run it to itself
 
 playbook-localhost.yml is pointing to the playbook that you want to execute
 
+The -K prompts for the password to become
+
 ```ansible-playbook -K --connection=local --inventory 127.0.0.1, --limit 127.0.0.1 playbook-localhost.yml```
