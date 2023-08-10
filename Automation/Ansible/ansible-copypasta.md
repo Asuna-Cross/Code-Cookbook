@@ -5,7 +5,17 @@ Point this towards the roles requirements file in your repo
 
 * Note : Add in a .gitignore into your repo if using roles to ignore everything apart from the .gitignore and the requirements.yml
 
+# Installing ansible collections
 
+```ansible-galaxy collection install my_namespace.my_collection```
+
+
+# John's Copypasta for this
+```bash
+#Install ansible roles + collections
+ansible-galaxy install -r roles/requirements.yml
+ansible-galaxy collection install -r ansible_collections/requirements.yml
+```
 
 # Running playbook
 
